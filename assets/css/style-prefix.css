@@ -737,10 +737,34 @@ body { background: var(--white); }
     padding-top: 5px;
   }
 
+  .air-purifier {
+    height:500px;
+    width:1250px;
+    padding:10px;
+  }
 
+ .owl-prev {
+  width: 50px;
+ }
 
+ .owl-next {
+  width:50px;
+ }
+ 
+ .owl-carousel .owl-item4 img {
+  height:500px
 
+ }
 
+ .item:hover {
+  transform: scale(1.09);
+ }
+
+ .hdmi {
+  display: flex;
+  float: left;
+  padding:10px
+ }
 
 /**
  * responsive larger than 1200px screen
