@@ -594,7 +594,7 @@ body { background: var(--white); }
     -o-transition: var(--transition-timing);
     transition: var(--transition-timing);
     z-index: 5;
-    margin-left: 225px;
+    margin-left: 125px;
   }
 
   .desktop-menu-category-list .menu-category:hover > .dropdown-list-audio {
@@ -699,6 +699,7 @@ body { background: var(--white); }
     grid-gap: 0px;
     float: right;
     margin-right: 15px;
+
   }
 
   .grid img {
@@ -765,17 +766,21 @@ body { background: var(--white); }
   margin-right: 320px;
  }
 
-
- .soundbars-banner {
-  display: block;
-  width: 600px;
-  height: 600px; 
-  margin-left: 10px;
+.charging {
+  display:flex;
   float: left;
+  height:600px;
+  width: 600px;
+  margin-right: 200px;
+  margin-left: 30px;
+}
+
+.last-img {
+  height:400px;
+  width: 1250px;
+  padding:10px;
+  margin-left: 8px;
 }
 
 
 
-
-
-  
