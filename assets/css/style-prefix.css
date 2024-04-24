@@ -184,25 +184,6 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 
-/**
- * responsive larger than 480px screen
- */
-
-@media (min-width: 480px) {
-
-  /**
-   * #CUSTOM PROPERTY
-   */
-
-  :root {
-
-    /**
-     * typography 
-     */
-
-    --fs-1: 1.875rem;
-
-  }
   /**
    * #HEADER
    */
@@ -254,14 +235,6 @@ body { background: var(--white); }
   .header-alert-news b { font-weight: var(--weight-500); }
 
   .header-main { padding: 25px 0; }
-
-
-}
-/**
- * responsive larger than 570px screen
- */
-
-@media (min-width: 570px) {
 
   /**
    * #HEADER
@@ -316,7 +289,7 @@ body { background: var(--white); }
 
   .header-search-container { min-width: 300px; }
 
-}
+
   /**
    * #BASE 
    */
@@ -760,43 +733,49 @@ body { background: var(--white); }
   transform: scale(1.09);
  }
 
- .hdmi {
+ .hdmi-left{
   display: flex;
   float: left;
-  padding:10px
+  margin-left: 30px;
+  height:300px;
  }
 
-/**
- * responsive larger than 1200px screen
- */
+ .hdmi-right {
+  display: flex;
+  float: right;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-right: 320px;
+ }
 
-@media (min-width: 1200px) {
+ .socket {
+  display: flex;
+  float: left;
+  margin-left: 30px;
+  height:300px;
+ }
 
-  /**
-   * #REUSED STYLE 
-   */
+ .socket-right {
+  display: flex;
+  float: right;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-right: 320px;
+ }
 
-  .container { max-width: 1200px; }
 
-
+ .soundbars-banner {
+  display: block;
+  width: 600px;
+  height: 600px; 
+  margin-left: 10px;
+  float: left;
 }
 
-/**
- * responsive larger than 1400px screen
- */
 
-@media (min-width: 1400px) {
 
-  /**
-   * #BASE 
-   */
 
-  html { font-size: 18px; }
 
-  /**
-   * #REUSED STYLE 
-   */
-
-  .container { max-width: 1350px; }
-
-}
+  
